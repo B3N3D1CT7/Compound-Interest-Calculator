@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Made by Benedict -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benedict Umeozor">
+  <title>Compound Interest Calculator</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fffd17f093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ 
+ <header>
+   <div class="container">
+     <h1><span>Ben</span>Coding</h1>
+     <i class="fa-solid fa-bars"></i>
+   </div>
+ </header>
+ 
+ <section>
+   <div class="container">
+     
+     <div class="calculator">
+       <div class="title">
+         Compound Interest Calculator
+       </div>
+       <div class="output">
+         <p id="output"></p>
+       </div>
+       <div class="input-field">
+         <div class="main">
+           <input type="radio" name="calculator" id="future">
+           <input type="radio" name="calculator" id="present">
+           <label for="future">
+             <span class="dot one"></span>
+             <span class="detail">Future Value</span>
+           </label>
+           <label for="present">
+             <span class="dot two"></span>
+             <span class="detail">Present Value</span>
+           </label>
+         </div>
+         <div class="row">
+           <span>Amount:</span>
+           <input type="number" id="amount">
+         </div>
+         <div class="row">
+           <span>Interest rate (%):</span>
+           <input type="number" id="interest">
+         </div>
+         <div class="row">
+           <span>Compounding Periods:</span>
+           <input type="number" id="periods" placeholder="yearly: 1, quarterly: 4, monthly: 12, and so on">
+         </div>
+         <div class="row">
+           <span>Years:</span>
+           <input type="number" id="years">
+         </div>
+       </div>
+       <div class="button">
+         <button id="calcBtn">Calculate</button>
+       </div>
+     </div>
+     
+     
+   </div>
+ </section>
+ 
+ <footer>
+   <div class="container">
+     Created by Benedict &copy; 2022
+   </div>
+ </footer>
+ 
+ <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
