@@ -47,7 +47,7 @@ function future() {
       output.textContent = 'Fill in all fields';
     } else {
       output.textContent = 'Calculating...'
-      setTimeout(() => output.textContent = `₦${finalValue.toFixed(2)}`, 3000)
+      setTimeout(() => output.textContent = `₦${finalValue.toFixed(2)}`, 1500)
     }
   }
 }
@@ -60,7 +60,7 @@ function present() {
       output.textContent = 'Fill in all fields';
     } else {
       output.textContent = 'Calculating...'
-      setTimeout(() => output.textContent = `₦${finalValue.toFixed(2)}`, 3000)
+      setTimeout(() => output.textContent = `₦${finalValue.toFixed(2)}`, 1500)
     }
   }
   
